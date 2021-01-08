@@ -7,83 +7,88 @@ body{
 	
 }
 .header{
-	width: 1920px;
-	height: 50px;
 	background-color: #18190A;
-	justify-content: center;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0px 0px 6px #ccc;
+	font-size: 20px;
+	
 }
 
 .logo_fb{
-	width: 400px;
-	float: left;
-	font-size:36px; 
-	height: 50px;
+	display: flex;
+	align-items: center;
 }
 .fb{
 	color: blue;
-	padding: 5px 5px 0 5px; 
+	font-size: 46px;
+	
+}
+.search{
+	display: flex;
+    align-items: center;
+    background-color: #f1f2f6;
+    padding: 10px;
+    border-radius: 50px;
+    height: 10px;
+	margin-left: 10px;
+	
+}
+.search a{
+	color: #838080;
 }
 
-.fa-search{
-	display: inline-block;
-	border-radius: 40px;
-	box-shadow: 0px 0px 0px #888;
-	padding: 0.5em 0.5em ;
-	color: white;
-	font-size: 18px;
-	background-color: gray;
-	margin-bottom: 30px;
+.menu{	
+	display: flex;
+	align-items: center;
+	margin-left: 230px;
 }
-.menu{
-	width: 640px;
-	float: left;
-	font-size: 36px;
-	padding-top: 3px;
-	height: 50px;
+
+.icon {
+    padding: 10px 2.8vw;
+    border-radius: 5px;
+    color: #66676c;
 }
-.menu a{
-	width: 160px;
+
+.icon i {
+    font-size: 32px;
 }
-.menu a i{
-	width: 160px;
-	text-align: center;
-	float: left;
-	color: lightgray;
-	
+
+.icon:hover {
+    background-color: #353434;
+    transition: ease-in-out 0.1s;
 }
-.menu a i:hover{
-	background-color: rgba(255, 255, 255, 0.1);
-	height: 50px;
-	border-radius: 10px;
-	
-}
+
 .setting{
-	padding-left: 280px;
-	width: 600px;
-	float: left;
-	font-size: 36px;
-	height: 50px;
-	
+	display: flex;
+    align-items: center;
+	margin-left: 70px;
 	
 }
-.info{
-	width: 140px;
-	float: left;
-	text-align: right;
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding: 5px 10px;
 }
-.info a {
-	text-decoration: none;
-	
-}
+
 .info:hover {
-	background-color: rgba(255, 255, 255, 0.1);
-	border-radius: 30px;
+    background: #353434;
+    transition: ease-in-out 0.1s;
+}
+
+.info a {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
 }
 .info span{
-	color: white;
-	font-size: 24px;
-	margin-left: 1rem;
-	
+	color: grey;
 }
 .fa-user-alt {
 	font-size: 22px;
@@ -92,37 +97,20 @@ body{
 	border-radius: 40px;
 	box-shadow: 0px 0px 0px #888;
 	padding: 0.5em 0.5em ;
-	background-color: gray;
-
-	
 }
-.info_setting{
-	width: 320px;
-	height: 50px;
-	float: left;
-	padding-left: 60px;
-	padding-top: 5px;
+.info_setting {
+    display: flex;
+    align-items: center;
 }
 
-.info_setting a{
-    text-align: center;
-	
-	
-	
-	margin-right: 20px; /*space between*/
-
-} 
-.info_setting a i{
-	font-size: 36px;
-	width: 46px;
-	height: 40px;
-    line-height: 38px;
-	color: #909090;
-	border: 1px solid #909090;
-	border-radius: 50%;
-	
+.info_setting i {
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color:#2F2E2E;
+	color: #8A8787;
 }
-.info_setting a i:hover{
-	background-color: rgba(255, 255, 255, 0.1);
-	
+
+.info_setting i:hover {
+    background: #353434;
 }
